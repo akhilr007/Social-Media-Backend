@@ -15,6 +15,12 @@ class TweetService {
         const tweet = await this.tweetRepository.create(data);
         return tweet;
 
+        /**
+        1. bulk-create in mongoose
+        2. filter title of hashtag based on multiple tags
+        3. how to add tweet id inside all the hashtags
+        */
+
     }
 
 }
